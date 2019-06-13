@@ -42,7 +42,7 @@ public class RulesTest {
 			// load up the knowledge base and create session
 			ksession = readKnowledgeBase();
 			System.out.println("setupKsession() ksession  = " + ksession);
-			klogger = KieServices.Factory.get().getLoggers().newFileLogger(ksession, "resource/ruleslogger");
+			//klogger = KieServices.Factory.get().getLoggers().newFileLogger(ksession, "resource/ruleslogger");
 			rdp = new RulesDataProcess();
 			inputpathfile = System.getProperty("user.dir") + "\\resource" + "\\input" + "\\RulesInput.xml";
 			outputpathfile = System.getProperty("user.dir") + "\\resource" + "\\output" + "\\RulesOutput.xml";
@@ -84,7 +84,7 @@ public class RulesTest {
 	public static void closeKsession() {
 		try {
 			// closing resources
-			klogger.close();
+			//klogger.close();
 			ksession.dispose();
 		} catch (Throwable t) {
 			t.printStackTrace();
