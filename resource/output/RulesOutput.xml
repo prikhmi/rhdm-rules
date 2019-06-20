@@ -1,14 +1,13 @@
-<RevenueSegmentationData>
-  <derivedChannel>AVIS COM</derivedChannel>
+<BookingData>
+  <derivedChannel>ALL OTHER</derivedChannel>
   <derivedSegment/>
-  <requestType>rentals</requestType>
+  <requestType>rentals1</requestType>
   <reservationStationNumber>0</reservationStationNumber>
   <stationTypeOfBookingLocation>09</stationTypeOfBookingLocation>
-  <bookingSource>T/39557711</bookingSource>
-  <brand>Avis</brand>
-  <bookingLocation>N1W</bookingLocation>
-  <bookingDate/>
-  <bookingLocationId>0</bookingLocationId>
+  <bookingSource>T/39557710</bookingSource>
+  <brand>Budget</brand>
+  <bookingLocation>OSO</bookingLocation>
+  <bookingLocationId>7255</bookingLocationId>
   <bookingStation/>
   <bookingChannel/>
   <checkoutRateCategory1>0</checkoutRateCategory1>
@@ -26,4 +25,8 @@
   <checkinDate/>
   <checkoutTime/>
   <checkinTime/>
-</RevenueSegmentationData>
+  <enteringCheckoutDate/>
+  <enteringCheckInDate/>
+  <transactionIdentifierNumber/>
+  <bookingDate>01/11/2007</bookingDate>
+</BookingData>

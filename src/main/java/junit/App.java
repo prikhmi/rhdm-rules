@@ -8,11 +8,11 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import com.fasterxml.jackson.dataformat.xml.XmlMapper;
-import com.avis.drools.RevenueSegmentationData;
+import com.avisbudget.drools.model.BookingData;
  
 public class App {
   public static void main(String[] args) throws IOException {
-	  RevenueSegmentationData customer = new RevenueSegmentationData();
+	  BookingData customer = new BookingData();
     
     // 1. Write Object to XML String
       String xml = write2XMLString(customer);

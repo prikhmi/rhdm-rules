@@ -22,7 +22,7 @@ import com.fasterxml.jackson.core.JsonParseException;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.dataformat.xml.XmlMapper;
-import com.avis.drools.RevenueSegmentationData;
+import com.avisbudget.drools.model.*;
 
 /**
  * This is a sample class to test some rules.
@@ -54,25 +54,25 @@ public class RulesTest {
 	@Test
 
 	public void RuleTest1() throws JsonParseException, JsonMappingException, IOException {
-		RevenueSegmentationData revenueSegmentationData = (RevenueSegmentationData) rdp.ReadXMLInput(inputpathfile,
-				RevenueSegmentationData.class);
-		System.out.println("Priya Java object = " + revenueSegmentationData);
+		BookingData bookingData = (BookingData) rdp.ReadXMLInput(inputpathfile,
+				BookingData.class);
+		System.out.println("Priya Java object = " + bookingData);
 		System.out.println("-----------------------------input starts--------------------------------");
 
 		// xml = rdp.printConsoleInput(revenueSegmentationData);
-		System.out.println(rdp.printConsoleInput(revenueSegmentationData));
+		System.out.println(rdp.printConsoleInput(bookingData));
 
 		System.out.println("-----------------------------input Ends--------------------------------");
-		FactHandle revenueSegmentationDataFH = ksession.insert(revenueSegmentationData);
+		FactHandle revenueSegmentationDataFH = ksession.insert(bookingData);
 
 		ksession.fireAllRules();
 		
-		rdp.writeXMLOutput(revenueSegmentationData, outputpathfile);
+		rdp.writeXMLOutput(bookingData, outputpathfile);
 
 		System.out.println("-----------------------------Output starts--------------------------------");
 
 		// xml = rdp.printConsoleInput(revenueSegmentationData);
-		System.out.println(rdp.printConsoleInput(revenueSegmentationData));
+		System.out.println(rdp.printConsoleInput(bookingData));
 
 		System.out.println("-----------------------------Output Ends--------------------------------");
 
