@@ -18,7 +18,7 @@
   <buildupAWDtype>K</buildupAWDtype>
   <inbound>Y</inbound>
   <checkoutDivisions>8001</checkoutDivisions>
-  <buildupStCode/>
+  <buildupStCode>400371</buildupStCode>
   <buildupAwdNumber/>
   <lengthOfRental>0.0</lengthOfRental>
   <checkoutDate/>
@@ -29,5 +29,5 @@
   <enteringCheckInDate/>
   <transactionIdentifierNumber/>
   <bookingDate>01/11/2007</bookingDate>
-  <tRacAmount>1.0E8</tRacAmount>
+  <tRacAmount>1.0E7</tRacAmount>
 </BookingData>

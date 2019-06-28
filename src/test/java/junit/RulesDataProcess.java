@@ -1,7 +1,9 @@
 package junit;
 
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.util.Scanner;
 
 import com.fasterxml.jackson.core.JsonGenerationException;
 import com.fasterxml.jackson.core.JsonParseException;
@@ -47,5 +49,7 @@ public class RulesDataProcess {
 		Object object = xmlMapper.readValue(new File(pathFile), cls);
 		return object;
 	}
+	
+	
 
 }

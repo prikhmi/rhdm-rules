@@ -18,7 +18,7 @@
   <checkinRateCategory1>01</checkinRateCategory1>
   <buildupAWDtype>K</buildupAWDtype>
   <inbound>Y</inbound>
-  <checkoutDivisions>8001</checkoutDivisions>
+  <checkoutDivisions>0</checkoutDivisions>
   <buildupStCode/>
   <buildupAwdNumber/>
   <lengthOfRental>0.0</lengthOfRental>
@@ -26,8 +26,4 @@
   <checkinDate/>
   <checkoutTime/>
   <checkinTime/>
-  <enteringCheckoutDate/>
-  <enteringCheckInDate/>
-  <transactionIdentifierNumber/>
-  <tRacAmount>100000000.0</tRacAmount>
 </RevenueSegmentationData>

@@ -1,6 +1,6 @@
 <BookingData>
   <derivedChannel>HOTWIRE</derivedChannel>
-  <derivedSegment>BUSINESS OTHER</derivedSegment>
+  <derivedSegment>LARGE COMMERCIAL</derivedSegment>
   <requestType>rentals</requestType>
   <reservationStationNumber>0</reservationStationNumber>
   <stationTypeOfBookingLocation>09</stationTypeOfBookingLocation>
@@ -17,7 +17,7 @@
   <checkinRateCategory1>1</checkinRateCategory1>
   <buildupAWDtype>K</buildupAWDtype>
   <inbound>Y</inbound>
-  <checkoutDivisions>8001</checkoutDivisions>
+  <checkoutDivisions>8004</checkoutDivisions>
   <buildupStCode/>
   <buildupAwdNumber/>
   <lengthOfRental>0.0</lengthOfRental>
@@ -29,5 +29,5 @@
   <enteringCheckInDate/>
   <transactionIdentifierNumber/>
   <bookingDate>01/11/2007</bookingDate>
-  <tRacAmount>1.0E8</tRacAmount>
+  <tRacAmount>1000000.0</tRacAmount>
 </BookingData>

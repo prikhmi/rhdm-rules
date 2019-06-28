@@ -3,6 +3,7 @@ package junit;
 import static org.junit.Assert.assertEquals;
 
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Arrays;
@@ -78,8 +79,66 @@ public class RulesTest {
 
 		ksession.delete(revenueSegmentationDataFH);
 
+		File dir = new File(System.getProperty("user.dir") + "\\resource" + "\\input" );
+		
+		System.out.println("inputpathfile" + inputpathfile);
+		for (File file : dir.listFiles()) {
+		    System.out.println(file.getPath());
+		}
+		
+		
+		
 	}
 
+	@Test
+	public void RunMultipleTest() throws JsonParseException, JsonMappingException, IOException {
+		String inputfilepath = System.getProperty("user.dir") + "\\resource" + "\\inputmultiple";
+		String outputfilepath = null;
+		File inputDirectory = new File(inputfilepath);
+		
+		for (File file : inputDirectory.listFiles()) {
+		    System.out.println(file.getPath());
+		    System.out.println(file.getName());
+		    
+		    outputfilepath=System.getProperty("user.dir") + "\\resource" + "\\outputmultiple"+ "\\" + "Output-" + file.getName();
+			System.out.println(outputfilepath);
+					
+					
+		  BookingData bookingData = (BookingData) rdp.ReadXMLInput(file.getPath().toString(),
+					BookingData.class);
+			
+			System.out.println("-----------------------------input starts--------------------------------");
+
+			// xml = rdp.printConsoleInput(revenueSegmentationData);
+			System.out.println(rdp.printConsoleInput(bookingData));
+
+			System.out.println("-----------------------------input Ends--------------------------------");
+			FactHandle revenueSegmentationDataFH = ksession.insert(bookingData);
+
+			ksession.fireAllRules();
+			
+			rdp.writeXMLOutput(bookingData, outputfilepath);
+
+			System.out.println("-----------------------------Output starts--------------------------------");
+
+			// xml = rdp.printConsoleInput(revenueSegmentationData);
+			System.out.println(rdp.printConsoleInput(bookingData));
+
+			System.out.println("-----------------------------Output Ends--------------------------------");
+
+			ksession.delete(revenueSegmentationDataFH);
+
+		    
+		    
+		}
+		
+		
+		
+		
+		
+		
+		
+	}
 	@AfterClass
 	public static void closeKsession() {
 		try {
@@ -96,6 +155,14 @@ public class RulesTest {
 		KieContainer kContainer = ks.getKieClasspathContainer();
 		KieSession kSession = kContainer.newKieSession();
 		return kSession;
+	}
+	
+	public static void ReadXMLMultipleFileInput() throws FileNotFoundException {
+		File dir = new File("path/to/files/");
+
+		for (File file : dir.listFiles()) {
+		    System.out.println(file.getPath());
+		}
 	}
 
 }

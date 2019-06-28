@@ -1,6 +1,6 @@
 <BookingData>
   <derivedChannel>HOTWIRE</derivedChannel>
-  <derivedSegment>BUSINESS OTHER</derivedSegment>
+  <derivedSegment>ASSOCIATIONS</derivedSegment>
   <requestType>rentals</requestType>
   <reservationStationNumber>0</reservationStationNumber>
   <stationTypeOfBookingLocation>09</stationTypeOfBookingLocation>
@@ -15,11 +15,11 @@
   <checkoutRateCategory3>5</checkoutRateCategory3>
   <checkoutRateCategory4>5</checkoutRateCategory4>
   <checkinRateCategory1>1</checkinRateCategory1>
-  <buildupAWDtype>K</buildupAWDtype>
+  <buildupAWDtype>B</buildupAWDtype>
   <inbound>Y</inbound>
-  <checkoutDivisions>8001</checkoutDivisions>
-  <buildupStCode/>
-  <buildupAwdNumber/>
+  <checkoutDivisions>8901</checkoutDivisions>
+  <buildupStCode>178071</buildupStCode>
+  <buildupAwdNumber>C8359001</buildupAwdNumber>
   <lengthOfRental>0.0</lengthOfRental>
   <checkoutDate/>
   <checkinDate/>
@@ -29,5 +29,5 @@
   <enteringCheckInDate/>
   <transactionIdentifierNumber/>
   <bookingDate>01/11/2007</bookingDate>
-  <tRacAmount>1.0E8</tRacAmount>
+  <tRacAmount>100000.0</tRacAmount>
 </BookingData>

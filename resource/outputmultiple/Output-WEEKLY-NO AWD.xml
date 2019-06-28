@@ -1,0 +1,33 @@
+<BookingData>
+  <derivedChannel>VOICE RES</derivedChannel>
+  <derivedSegment>WEEKLY/NO AWD</derivedSegment>
+  <requestType>rentals</requestType>
+  <reservationStationNumber>0</reservationStationNumber>
+  <stationTypeOfBookingLocation>09</stationTypeOfBookingLocation>
+  <bookingSource>T/39557710</bookingSource>
+  <brand>Budget</brand>
+  <bookingLocation>OSO</bookingLocation>
+  <bookingLocationId>7255</bookingLocationId>
+  <bookingStation/>
+  <bookingChannel/>
+  <checkoutRateCategory1>0</checkoutRateCategory1>
+  <checkoutRateCategory2>0</checkoutRateCategory2>
+  <checkoutRateCategory3>0</checkoutRateCategory3>
+  <checkoutRateCategory4>0</checkoutRateCategory4>
+  <checkinRateCategory1>0</checkinRateCategory1>
+  <buildupAWDtype>R</buildupAWDtype>
+  <inbound/>
+  <checkoutDivisions>0</checkoutDivisions>
+  <buildupStCode/>
+  <buildupAwdNumber/>
+  <lengthOfRental>21.0</lengthOfRental>
+  <checkoutDate>06/21/2019</checkoutDate>
+  <checkinDate>06/24/2019</checkinDate>
+  <checkoutTime>13:00:00</checkoutTime>
+  <checkinTime>15:00:00</checkinTime>
+  <enteringCheckoutDate/>
+  <enteringCheckInDate/>
+  <transactionIdentifierNumber/>
+  <bookingDate>01/11/2007</bookingDate>
+  <tRacAmount>0.0</tRacAmount>
+</BookingData>

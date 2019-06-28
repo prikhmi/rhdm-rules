@@ -16,12 +16,12 @@
   <checkoutRateCategory3>05</checkoutRateCategory3>
   <checkoutRateCategory4>05</checkoutRateCategory4>
   <checkinRateCategory1>01</checkinRateCategory1>
-  <buildupAWDtype>K</buildupAWDtype>
+  <buildupAWDtype>M</buildupAWDtype>
   <inbound>Y</inbound>
-  <checkoutDivisions>8001</checkoutDivisions>
-  <buildupStCode/>
-  <buildupAwdNumber/>
-  <lengthOfRental>0.0</lengthOfRental>
+  <checkoutDivisions>8901</checkoutDivisions>
+  <buildupStCode>178071</buildupStCode>
+  <buildupAwdNumber>C8359001</buildupAwdNumber>
+  <lengthOfRental>5.0</lengthOfRental>
   <checkoutDate/>
   <checkinDate/>
   <checkoutTime/>
@@ -29,5 +29,5 @@
   <enteringCheckoutDate/>
   <enteringCheckInDate/>
   <transactionIdentifierNumber/>
-  <tRacAmount>100000000.0</tRacAmount>
+  <tRacAmount>100000</tRacAmount>
 </RevenueSegmentationData>

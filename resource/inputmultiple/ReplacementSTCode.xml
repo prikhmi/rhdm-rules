@@ -1,25 +1,26 @@
-<BookingData>
-  <derivedChannel>HOTWIRE</derivedChannel>
-  <derivedSegment>BUSINESS OTHER</derivedSegment>
+<RevenueSegmentationData>
+  <derivedChannel/>
+  <derivedSegment/>
   <requestType>rentals</requestType>
   <reservationStationNumber>0</reservationStationNumber>
   <stationTypeOfBookingLocation>09</stationTypeOfBookingLocation>
   <bookingSource>T/10564912</bookingSource>
   <brand></brand>
   <bookingLocation>D2C</bookingLocation>
+  <bookingDate>01/11/2007</bookingDate>
   <bookingLocationId>0</bookingLocationId>
   <bookingStation/>
   <bookingChannel/>
-  <checkoutRateCategory1>1</checkoutRateCategory1>
-  <checkoutRateCategory2>2</checkoutRateCategory2>
-  <checkoutRateCategory3>5</checkoutRateCategory3>
-  <checkoutRateCategory4>5</checkoutRateCategory4>
-  <checkinRateCategory1>1</checkinRateCategory1>
+  <checkoutRateCategory1>01</checkoutRateCategory1>
+  <checkoutRateCategory2>02</checkoutRateCategory2>
+  <checkoutRateCategory3>05</checkoutRateCategory3>
+  <checkoutRateCategory4>05</checkoutRateCategory4>
+  <checkinRateCategory1>01</checkinRateCategory1>
   <buildupAWDtype>K</buildupAWDtype>
   <inbound>Y</inbound>
-  <checkoutDivisions>8001</checkoutDivisions>
-  <buildupStCode/>
-  <buildupAwdNumber/>
+  <checkoutDivisions>8900</checkoutDivisions>
+  <buildupStCode>178071</buildupStCode>
+  <buildupAwdNumber>C8359000</buildupAwdNumber>
   <lengthOfRental>0.0</lengthOfRental>
   <checkoutDate/>
   <checkinDate/>
@@ -28,6 +29,5 @@
   <enteringCheckoutDate/>
   <enteringCheckInDate/>
   <transactionIdentifierNumber/>
-  <bookingDate>01/11/2007</bookingDate>
-  <tRacAmount>1.0E8</tRacAmount>
-</BookingData>
+  <tRacAmount>100000</tRacAmount>
+</RevenueSegmentationData>

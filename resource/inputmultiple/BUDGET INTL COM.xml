@@ -1,0 +1,29 @@
+<RevenueSegmentationData>
+  <derivedChannel/>
+  <derivedSegment/>
+  <requestType>rentals</requestType>
+  <reservationStationNumber>0</reservationStationNumber>
+  <stationTypeOfBookingLocation>09</stationTypeOfBookingLocation>
+  <bookingSource>T/35509261</bookingSource>
+  <brand>Budget</brand>
+  <bookingLocation>JP1</bookingLocation>
+  <bookingDate>01/11/2007</bookingDate>
+  <bookingLocationId>0</bookingLocationId>
+  <bookingStation/>
+  <bookingChannel/>
+  <checkoutRateCategory1>0</checkoutRateCategory1>
+  <checkoutRateCategory2>0</checkoutRateCategory2>
+  <checkoutRateCategory3>0</checkoutRateCategory3>
+  <checkoutRateCategory4>0</checkoutRateCategory4>
+  <checkinRateCategory1>0</checkinRateCategory1>
+  <buildupAWDtype/>
+  <inbound/>
+  <checkoutDivisions>0</checkoutDivisions>
+  <buildupStCode/>
+  <buildupAwdNumber/>
+  <lengthOfRental>0.0</lengthOfRental>
+  <checkoutDate/>
+  <checkinDate/>
+  <checkoutTime/>
+  <checkinTime/>
+</RevenueSegmentationData>
